@@ -1,0 +1,22 @@
+runtime: python37
+
+handlers:
+        # This configures Google App Engine to serve the files in the app’s
+        # static directory.
+        - url: /static
+          static_dir: static
+
+        - url: /.*
+          script: auto
+
+env_variables:
+    DEBUG: 'true'
+    INSTANCE_CONNECTION_NAME: 'manifest-surfer-303405:asia-east2:squirrel'
+    PGDATABASE: 'postgres'
+    PGUSER: 'postgres'
+    PGPASSWORD: 'JKMKl83cJqzDM1Gk'
+    SECRET_KEY: 'django-insecure-eez&_j8(s&hgp)w7azy@=z*y%k4h9s2r^wl0u2vyw7#uh52g-r'
+    GS_BUCKET_NAME: 'manifest-surfer-303405.appspot.com'
+    GOOGLE_APPLICATION_CREDENTIALS: 'service-account-key.json'
+
+
