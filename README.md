@@ -19,6 +19,6 @@ Show general stats about the sightings. View [sightings/stats](www.google.com/st
 Project Group 32
 <br>
 ## Members
-UNIs: [jz3284, hl3343]
+UNIs: [jz3284, hl3433]
 <br>
 ## Link to our website
